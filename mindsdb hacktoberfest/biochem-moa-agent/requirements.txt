@@ -1,0 +1,114 @@
+# DietMOA Agent - Python Dependencies
+# ====================================
+
+# Core Dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+python-dotenv==1.0.0
+
+# Database Clients
+neo4j==5.14.0
+psycopg2-binary==2.9.9
+redis==5.0.1
+qdrant-client==1.7.0
+
+# MindsDB Integration
+mindsdb-sdk==1.0.3
+
+# Scientific Computing
+numpy==1.24.3
+pandas==2.1.3
+scipy==1.11.4
+scikit-learn==1.3.2
+
+# Bioinformatics
+biopython==1.81
+rdkit==2023.9.1
+pubchempy==1.0.4
+chembl-webresource-client==0.10.8
+
+# Machine Learning
+torch==2.1.1
+transformers==4.35.2
+sentence-transformers==2.2.2
+xgboost==2.0.2
+
+# Graph Processing
+networkx==3.2
+node2vec==0.4.6
+igraph==0.11.3
+
+# API Clients
+requests==2.31.0
+httpx==0.25.2
+aiohttp==3.9.1
+
+# Data Processing
+pyyaml==6.0.1
+jsonschema==4.20.0
+msgpack==1.0.7
+protobuf==4.25.1
+
+# Visualization
+plotly==5.18.0
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# Memory Management
+mem0ai==0.0.5
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+faker==20.1.0
+
+# Development Tools
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
+isort==5.12.0
+pre-commit==3.5.0
+
+# Monitoring
+prometheus-client==0.19.0
+structlog==23.2.0
+
+# Documentation
+sphinx==7.2.6
+sphinx-rtd-theme==2.0.0
+myst-parser==2.0.0
+
+# Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# Utilities
+tqdm==4.66.1
+click==8.1.7
+rich==13.7.0
+python-dateutil==2.8.2
+pytz==2023.3.post1
+
+# Performance
+cython==3.0.6
+numba==0.58.1
+ujson==5.8.0
+
+# Async Support
+asyncio==3.4.3
+aiofiles==23.2.1
+aiocache==0.12.2
+
+# Job Scheduling
+celery==5.3.4
+redis==5.0.1
+flower==2.0.1
+
+# Version Pinning
+setuptools==69.0.2
+pip==23.3.1
+wheel==0.42.0
